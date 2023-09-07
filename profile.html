@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My profile</title>
+  <link href="resources/styles.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <article>
+      <h1 class="titel">Dit is mijn profiel pagina</h1>
+      <div id="navbar">
+        <a href="http://localhost">Main</a>
+        <a class="active" href="http://localhost/profile.html">Profile</a>
+        <a href="http://localhost/dashboard.html">Dashboard</a>
+        <a href="http://localhost/faq.html">FAQ</a>
+        <a href="http://localhost/blog.html">Blog</a>
+    </div>
+    <ul>  
+    <li><h1>Naam</h1>
+      <p>Kylian Rocco van Helden</p></li>
+      <li><h1>Leeftijd</h1>
+      <p>18 jaar</p></li>
+      <li><h1>Woonplaats + woonsituatie</h1>
+      <p>Zomeraagt 27, Vlissingen bij ouders</p></li>
+      <li><h1>Vooropleiding(en) + profiel</h1>
+      <p>Gymnasium NT/NG</p></li>
+      <h1>Buitenschoolse activiteiten</h1>
+      <ul>
+        <li>gamen</li>
+        <li>werken</li>
+        <li>gitaar spelen</li>
+      </ul>
+    </article>
+  </main>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+</body>
+
+</html>

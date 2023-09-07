@@ -1,0 +1,57 @@
+.titel {
+    text-align: center;
+    color: greenyellow;
+}
+
+h1 {
+    color: aqua;
+}
+
+li,
+p {
+    color: white;
+}
+
+a:hover {
+    color: rgba(255, 225, 0, 0.666);
+}
+
+.active {
+    color: tomato;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: rgba(255, 225, 0, 0.666);
+}
+
+#navbar a.active {
+    color: tomato;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .top-secret {
+    color: black;
+  }
+
+  .top-secret:hover {
+    color: black;
+  }

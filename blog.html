@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <link href="resources/styles.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: firebrick;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="titel">Dit is het blog</h1>
+    <div id="navbar">
+        <a href="http://localhost">Main</a>
+        <a href="http://localhost/profile.html">Profile</a>
+        <a href="http://localhost/dashboard.html">Dashboard</a>
+        <a href="http://localhost/faq.html">FAQ</a>
+        <a class="active" href="http://localhost/blog.html">Blog</a>
+    </div>
+    <article class="het-blog">
+        <h1>HET BLOG!</h1>
+        <article class="study-choice">
+            <h2>Study choice</h2>
+            <p></p>
+        </article>
+        <article class="swot"></article>
+        <article class="programming-experience"></article>
+        <article class="feedback"></article>
+    </article>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
+</body>
+
+</html>

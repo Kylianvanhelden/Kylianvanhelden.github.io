@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <link href="resources/styles.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+        }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color:aquamarine;
+}
+        li a {
+            display: block;
+            width: 100px;
+            background-color:gainsboro;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="titel">Hello World!</h1>
+    <div id="navbar">
+        <a class="active" href="http://localhost">Main</a>
+        <a href="http://localhost/profile.html">Profile</a>
+        <a href="http://localhost/dashboard.html">Dashboard</a>
+        <a href="http://localhost/faq.html">FAQ</a>
+        <a href="http://localhost/blog.html">Blog</a>
+    </div>
+    <div>
+        <ul>
+            <li><a target="_blank"
+                    href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20230720.pdf">CER</a>
+            </li>
+            <li><a target="_blank"
+                    href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">IR</a>
+            </li>
+            <li><a target="_blank" href="https://learn.hz.nl">Learn</a></li>
+            <li><a target="_blank"
+                    href="https://teams.microsoft.com/_#/school/conversations/Dutch?threadId=19:a13406b4a9d24e34802806b51eb0d87e@thread.skype&ctx=channel">Teams</a>
+            </li>
+            <li><a target="_blank" href="https://hz.osiris-student.nl/#/home">Osiris</a></li>
+            <li><a target="_blank" href="https://github.com/HZ-HBO-ICT">Github van HZ</a></li>
+        </ul>
+        <a class="top-secret" href="http://localhost/bee-movie.html">!</a>
+    </div>
+    <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
+</body>
+
+</html>
