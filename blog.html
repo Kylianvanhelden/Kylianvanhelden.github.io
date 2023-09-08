@@ -28,20 +28,20 @@
         <article class="programming-experience"></article>
         <article class="feedback"></article>
     </article>
-        <script>
-            window.onscroll = function() {myFunction()};
-            
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset >= sticky) {
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
                 navbar.classList.add("sticky")
-              } else {
+            } else {
                 navbar.classList.remove("sticky");
-              }
             }
-            </script>
+        }
+    </script>
 </body>
 
 </html>

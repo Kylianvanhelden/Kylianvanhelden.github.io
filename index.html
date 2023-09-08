@@ -6,16 +6,18 @@
         body {
             background-color: black;
         }
+
         ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  color:aquamarine;
-}
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            color: aquamarine;
+        }
+
         li a {
             display: block;
             width: 100px;
-            background-color:gainsboro;
+            background-color: gainsboro;
         }
     </style>
 </head>
@@ -47,19 +49,19 @@
         <a class="top-secret" href="http://localhost/bee-movie.html">!</a>
     </div>
     <script>
-            window.onscroll = function() {myFunction()};
-            
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset >= sticky) {
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
                 navbar.classList.add("sticky")
-              } else {
+            } else {
                 navbar.classList.remove("sticky");
-              }
             }
-            </script>
+        }
+    </script>
 </body>
 
 </html>

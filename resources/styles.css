@@ -46,12 +46,12 @@ a:hover {
     position: fixed;
     top: 0;
     width: 100%;
-  }
+}
 
-  .top-secret {
+.top-secret {
     color: black;
-  }
+}
 
-  .top-secret:hover {
+.top-secret:hover {
     color: black;
-  }
+}

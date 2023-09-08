@@ -1,37 +1,37 @@
 <html>
 
 <head>
-    <link href="resources/styles.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: blue;
-        }
-    </style>
+  <link href="resources/styles.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: blue;
+    }
+  </style>
 </head>
 
 <body>
-    <h1 class="titel">Dit is het dashboard</h1>
-    <div id="navbar">
-        <a href="http://localhost">Main</a>
-        <a href="http://localhost/profile.html">Profile</a>
-        <a class="active" href="http://localhost/dashboard.html">Dashboard</a>
-        <a href="http://localhost/faq.html">FAQ</a>
-        <a href="http://localhost/blog.html">Blog</a>
-    </div>
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-        </script>
+  <h1 class="titel">Dit is het dashboard</h1>
+  <div id="navbar">
+    <a href="http://localhost">Main</a>
+    <a href="http://localhost/profile.html">Profile</a>
+    <a class="active" href="http://localhost/dashboard.html">Dashboard</a>
+    <a href="http://localhost/faq.html">FAQ</a>
+    <a href="http://localhost/blog.html">Blog</a>
+  </div>
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
 </body>
 
 </html>

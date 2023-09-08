@@ -24,30 +24,38 @@
         <a href="http://localhost/dashboard.html">Dashboard</a>
         <a href="http://localhost/faq.html">FAQ</a>
         <a href="http://localhost/blog.html">Blog</a>
-    </div>
-    <ul>  
-    <li><h1>Naam</h1>
-      <p>Kylian Rocco van Helden</p></li>
-      <li><h1>Leeftijd</h1>
-      <p>18 jaar</p></li>
-      <li><h1>Woonplaats + woonsituatie</h1>
-      <p>Zomeraagt 27, Vlissingen bij ouders</p></li>
-      <li><h1>Vooropleiding(en) + profiel</h1>
-      <p>Gymnasium NT/NG</p></li>
-      <h1>Buitenschoolse activiteiten</h1>
+      </div>
       <ul>
-        <li>gamen</li>
-        <li>werken</li>
-        <li>gitaar spelen</li>
-      </ul>
+        <li>
+          <h1>Naam</h1>
+          <p>Kylian Rocco van Helden</p>
+        </li>
+        <li>
+          <h1>Leeftijd</h1>
+          <p>18 jaar</p>
+        </li>
+        <li>
+          <h1>Woonplaats + woonsituatie</h1>
+          <p>Zomeraagt 27, Vlissingen bij ouders</p>
+        </li>
+        <li>
+          <h1>Vooropleiding(en) + profiel</h1>
+          <p>Gymnasium NT/NG</p>
+        </li>
+        <h1>Buitenschoolse activiteiten</h1>
+        <ul>
+          <li>gamen</li>
+          <li>werken</li>
+          <li>gitaar spelen</li>
+        </ul>
     </article>
   </main>
   <script>
-    window.onscroll = function() {myFunction()};
-    
+    window.onscroll = function () { myFunction() };
+
     var navbar = document.getElementById("navbar");
     var sticky = navbar.offsetTop;
-    
+
     function myFunction() {
       if (window.pageYOffset >= sticky) {
         navbar.classList.add("sticky")
@@ -55,7 +63,7 @@
         navbar.classList.remove("sticky");
       }
     }
-    </script>
+  </script>
 </body>
 
 </html>
