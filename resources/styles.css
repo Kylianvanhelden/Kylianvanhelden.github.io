@@ -56,6 +56,14 @@ a:hover {
     color: black;
 }
 
-.body-main {
-    color: black;
+th { 
+    color:deeppink
+}
+
+td {
+    color:darkorange
+}
+
+table {
+    background-color: chartreuse;
 }
