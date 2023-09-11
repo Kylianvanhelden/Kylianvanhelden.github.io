@@ -65,5 +65,25 @@ td {
 }
 
 table {
-    background-color: chartreuse;
+    background-color: gray;
+}
+
+.course-complete {
+    color:greenyellow
+}
+
+.course-no-grades {
+    color:hotpink
+}
+
+.course-partialy-complete {
+    color:gold
+}
+
+.exam-failed {
+    color:red
+}
+
+.course-with-failed-exam {
+    color:blueviolet
 }
