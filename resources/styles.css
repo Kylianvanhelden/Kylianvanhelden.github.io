@@ -57,12 +57,12 @@ a:hover {
     color: black;
 }
 
-th { 
-    color:deeppink
+th {
+    color: deeppink
 }
 
 td {
-    color:darkorange
+    color: darkorange
 }
 
 table {
@@ -70,25 +70,37 @@ table {
 }
 
 .course-complete {
-    color:greenyellow
+    color: greenyellow
 }
 
 .course-no-grades {
-    color:hotpink
+    color: hotpink
 }
 
 .course-partialy-complete {
-    color:gold
+    color: gold
 }
 
 .exam-failed {
-    color:red
+    color: red
 }
 
 .course-with-failed-exam {
-    color:blueviolet
+    color: blueviolet
 }
 
 #blog {
     border: 2px solid blueviolet;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.games img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px
 }
