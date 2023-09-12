@@ -23,6 +23,7 @@ a:hover {
 #navbar {
     overflow: hidden;
     background-color: #333;
+    font-size: 25px;
 }
 
 #navbar a {
@@ -86,4 +87,8 @@ table {
 
 .course-with-failed-exam {
     color:blueviolet
+}
+
+#blog {
+    border: 2px solid blueviolet;
 }
