@@ -104,3 +104,19 @@ table {
     max-width: 350px;
     border-radius: 10px
 }
+
+.motivatie {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.motivatie-head {
+    text-align: center
+}
+
+.faq p {
+    color:black
+}
