@@ -61,6 +61,11 @@ a:hover {
     color: #333;
 }
 
+.top-secret-active {
+    color: rgba(255, 225, 0, 0.666);
+    float: right;
+}
+
 th {
     color: deeppink
 }
