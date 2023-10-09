@@ -27,15 +27,18 @@ a:hover {
 }
 
 #navbar a {
-    float: left;
     display: block;
-    color: #f2f2f2;
     text-align: center;
     padding: 14px;
     text-decoration: none;
 }
 
-#navbar a:hover {
+#nav-link {
+    color: #f2f2f2;
+    float: left;
+}
+
+#nav-link:hover {
     color: rgba(255, 225, 0, 0.666);
 }
 
@@ -50,11 +53,12 @@ a:hover {
 }
 
 .top-secret {
-    color: black;
+    color: #333;
+    float: right;
 }
 
 .top-secret:hover {
-    color: black;
+    color: #333;
 }
 
 th {
