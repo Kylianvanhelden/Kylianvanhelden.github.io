@@ -42,7 +42,7 @@ a:hover {
     color: rgba(255, 225, 0, 0.666);
 }
 
-#navbar a.active {
+#navbar a.actief {
     color: tomato;
 }
 
@@ -61,7 +61,7 @@ a:hover {
     color: #333;
 }
 
-.top-secret-active {
+.top-secret-actief {
     color: rgba(255, 225, 0, 0.666);
     float: right;
 }
