@@ -1,6 +1,8 @@
 .titel {
     text-align: center;
     color: orange;
+    font-family: fantasy;
+    letter-spacing: 0.5px;
 }
 
 h1 {
@@ -195,11 +197,26 @@ table {
     color: orange;
 }
 
-.blog-post h3 {
+
+.blog-post {
+    display: block;
+    position: relative;
+    background-color: white;
+    padding: 0 2px;
     font-size: 24px;
 }
 
 .blog-post p {
-    padding: 0 2px;
-    font-size: 24px;
+    margin-left: 40px;
+    margin-right: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.blog-post img {
+    max-width: 300px;
+    float: right;
+}
+
+.blog-post a {
+    padding-right: 15px;
 }
