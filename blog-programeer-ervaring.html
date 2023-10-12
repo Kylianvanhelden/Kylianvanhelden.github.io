@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="resources/styles.css" rel="stylesheet">
+  <title>Programeer ervaring</title>
+</head>
+
+<body class="achtergrond">
+  <nav id="navbar">
+    <a id="nav-link" href="http://localhost">Main</a>
+    <a id="nav-link" href="http://localhost/profile.html">Profile</a>
+    <a id="nav-link" href="http://localhost/dashboard.html">Dashboard</a>
+    <a id="nav-link" href="http://localhost/faq.html">FAQ</a>
+    <a class="semi-actief" id="nav-link" href="http://localhost/blog.html">Blog</a>
+    <a class="actief" id="nav-link" href="http://localhost/blog-programeer-ervaring">Studie keuze</a>
+    <a class="top-secret" href="http://localhost/bee-movie.html">Bees</a>
+  </nav>
+
+  <div class="blog-post">
+    <p>Ik had werkelijk waar geen programmeer ervaring voordat ik aan deze
+        opleiding begon, ik had nog nooit een programeer programma
+        aangeraakt of ook maar enig onderzoek gedaan naar programmeren.
+        De laatste paar weken heb ik een hoop informatie vergaard die mij
+        de mogelijkheid hebben gegeven om deze website te maken, hier ben
+        ik heel trots op en heel dankbaar voor om iets te doen wat ik
+        nooit eerder voor ogen had gezien.</p>
+  </div>
+  
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+
+</html>

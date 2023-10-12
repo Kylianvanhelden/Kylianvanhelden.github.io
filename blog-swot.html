@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="resources/styles.css" rel="stylesheet">
+  <title>SWOT</title>
+</head>
+
+<body class="achtergrond">
+  <nav id="navbar">
+    <a id="nav-link" href="http://localhost">Main</a>
+    <a id="nav-link" href="http://localhost/profile.html">Profile</a>
+    <a id="nav-link" href="http://localhost/dashboard.html">Dashboard</a>
+    <a id="nav-link" href="http://localhost/faq.html">FAQ</a>
+    <a class="semi-actief" id="nav-link" href="http://localhost/blog.html">Blog</a>
+    <a class="actief" id="nav-link" href="http://localhost/blog-swot">Studie keuze</a>
+    <a class="top-secret" href="http://localhost/bee-movie.html">Bees</a>
+  </nav>
+
+  <div class="blog-post">
+    <h3>Strengts:</h3>
+            <p>Ik kan mij heel goed en effectief focussen op taken, als mij iets
+                 gevraagd wordt om te doen kan ik hier uren achter elkaar aan werken.</p>
+            <div class="lijn"></div>
+            <h3>Weaknessess:</h3>
+            <p>Soms focus ik mij te hard ergens op en heb ik niet door wat er om mij
+                 heen gebeurt, bijv. dat ik de tijd vergeet en te laat doorga.</p>
+            <div class="lijn"></div>
+            <h3>Opportunities:</h3>
+            <p>Ik zie de kans om de kwalificaties te krijgen voor mijn droombaan:
+                 games programmeren.</p>
+            <div class="lijn"></div>
+            <h3>Threats:</h3>
+            <p>Dat ik mij ga vervelen op school, aangezien ik van het vwo kom
+                 waar veel van ons verwacht werd.</p>
+  </div>
+  
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+
+</html>

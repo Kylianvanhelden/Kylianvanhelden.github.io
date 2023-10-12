@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="resources/styles.css" rel="stylesheet">
+  <title>Feedback</title>
+</head>
+
+<body class="achtergrond">
+  <nav id="navbar">
+    <a id="nav-link" href="http://localhost">Main</a>
+    <a id="nav-link" href="http://localhost/profile.html">Profile</a>
+    <a id="nav-link" href="http://localhost/dashboard.html">Dashboard</a>
+    <a id="nav-link" href="http://localhost/faq.html">FAQ</a>
+    <a class="semi-actief" id="nav-link" href="http://localhost/blog.html">Blog</a>
+    <a class="actief" id="nav-link" href="http://localhost/blog-programeer-ervaring">Studie keuze</a>
+    <a class="top-secret" href="http://localhost/bee-movie.html">Bees</a>
+  </nav>
+
+  <div class="blog-post">
+    <p>Na de presentatie in de tweede week van de opleiding heb ik van
+        verschillende docenten en studenten feedback gekregen, het één
+        nuttiger dan het ander. Ik heb bijna elk stuk feedback gebruikt
+        om mijn website beter te maken. Van het toevoegen van SEO,
+        waarvan ik daarvoor niet begreep hoe dat moest, tot het uniform
+        maken van mijn pagina’s door bijv. de achtergrond aan te
+        passen. Ook heb ik van een vrij behulpzame studenten assistent
+        genaamd Erik het advies gekregen om mijn afbeeldingen te
+        downloaden en in een img folder te zetten, dit heeft ervoor
+        gezorgd dat er niet linkjes van 1000 karakters lang in
+        mijn code stonden en dat ik sneller dingen aan kon passen.
+        Er was toen nog veel wat ik aan moest passen, maar dat
+        heb ik gedaan en ik heb hiervan geleerd.</p>
+  </div>
+  
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+
+</html>

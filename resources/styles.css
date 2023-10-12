@@ -20,10 +20,6 @@ a:hover {
     color: rgba(255, 225, 0, 0.666);
 }
 
-.active {
-    color: tomato;
-}
-
 #navbar {
     overflow: hidden;
     background-color: #333;
@@ -48,6 +44,10 @@ a:hover {
 
 #navbar a.actief {
     color: tomato;
+}
+
+#navbar a.semi-actief {
+    color: orange;
 }
 
 .sticky {
@@ -123,14 +123,28 @@ table {
     border-radius: 10px;
 }
 
+.genres-head{
+    text-align: center;
+    font-size: 28px;;
+}
+
 .genres {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.genres-img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
 }
 
-.genres img {
+.genres-img img {
     width: 100%;
     max-width: 725px;
 }
@@ -147,8 +161,45 @@ table {
 .motivatie-head {
     text-align: center;
     font-size: 28px;
+    margin-right: 100px;
 }
 
 .achtergrond {
     background-color: blue;
+}
+
+.lijn {
+    border-bottom: 1px solid orange;
+    margin: 2px 0;
+    
+}
+
+.groot{
+    height: 5px;
+    background-color: orange;
+}
+
+.lijn-blog {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    height: 5px;
+    background-color: orange;
+}
+
+.het-blog h2 {
+    font-size: 28px;
+    color: orange;
+}
+
+.blog-link {
+    color: orange;
+}
+
+.blog-post h3 {
+    font-size: 24px;
+}
+
+.blog-post p {
+    padding: 0 2px;
+    font-size: 24px;
 }
