@@ -7,25 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mijn profiel</title>
   <link href="resources/styles.css" rel="stylesheet">
-  <style>
-    body {
-      background-color: orange;
-    }
-  </style>
 </head>
 
-<body>
-  <main>
+<body class="achtergrond">
+  <main >
     <article>
-      
-      <div id="navbar">
+      <nav id="navbar">
         <a id="nav-link" href="http://localhost">Main</a>
         <a class="actief" id="nav-link" href="http://localhost/profile.html">Profile</a>
         <a id="nav-link" href="http://localhost/dashboard.html">Dashboard</a>
         <a id="nav-link" href="http://localhost/faq.html">FAQ</a>
         <a id="nav-link" href="http://localhost/blog.html">Blog</a>
         <a class="top-secret" href="http://localhost/bee-movie.html">Bees</a>
-      </div>
+      </nav>
       <h1 class="titel">Dit is mijn profiel pagina</h1>
       <ul>
         <li>
@@ -44,6 +38,19 @@
           <h1>Vooropleiding(en) + profiel</h1>
           <p>Gymnasium NT/NG</p>
         </li>
+        <li>
+          <h1>Eigenschappen</h1>
+          <ul>
+            <li>slim</li>
+            <li>hard werkend</li>
+            <li>snel afgeleid</li>
+            <li>geeft niet snel op</li>
+            <li>sarcastisch</li>
+            <li>introvert</li>
+            <li>licht autistisch</li>
+          </ul>
+        </li>
+        <li>
         <h1>Buitenschoolse activiteiten</h1>
         <ul>
           <li>
@@ -65,19 +72,21 @@
             <h2>Gamen</h2>
           </li>
         </ul>
+        <div class="games">
+          <img alt="Skylanders Spyro's Adventure box art" src="resources/img/Skylanders_-Spyro's-Adventure-285x380.jpg">
+          <img alt="Assassin's Creed all main character poster" src="resources/img/8uwqled94x051.webp">
+          <img alt="Bendy and the dark Revival art poster" src="resources/img/bendyatdr.jpg">
+          <img alt="Resident Evil 2 poster" src="resources/img/re.jpg">
+          <img alt="Papa's Freezeria To Go poster" src="resources/img/FreezeriaToGo.jpg">
+          <img alt="The Henry Stickmin collection poster" src="resources/img/Henry_Stickmin_series.webp">
+          <img alt="Hitman World of Assassination poster" src="resources/img/HitmanWOA.jpg">
+          <img alt="I Expect You to Die, death engine updat poster" src="resources/img/IEYTD.jpg">
+        </div>
+        </li>
     </article>
   </main>
 
-  <div class="games">
-    <img src="resources/img/Skylanders_-Spyro's-Adventure-285x380.jpg">
-    <img src="resources/img/8uwqled94x051.webp">
-    <img src="resources/img/bendyatdr.jpg">
-    <img src="resources/img/re.jpg">
-    <img src="resources/img/freezeria.jpg">
-    <img src="resources/img/henry.jpg">
-    <img src="resources/img/Hitman.jpg">
-    <img src="resources/img/IExpectYouToDie.jpg">
-  </div>
+  
 
   <script>
     window.onscroll = function () { myFunction() };

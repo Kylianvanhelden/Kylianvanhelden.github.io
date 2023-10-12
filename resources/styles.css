@@ -1,15 +1,19 @@
 .titel {
     text-align: center;
-    color: greenyellow;
+    color: orange;
 }
 
 h1 {
-    color: aqua;
+    color: orange;
+}
+
+.vraag {
+    color: red;
 }
 
 li,
 p {
-    color: white;
+    color: black;
 }
 
 a:hover {
@@ -67,35 +71,38 @@ a:hover {
 }
 
 th {
-    color: deeppink
+    color: deeppink;
+    font-size: 28px;
 }
 
 td {
-    color: darkorange
+    color: darkorange;
+    font-size: 20px;
 }
 
 table {
     background-color: gray;
+    border-color: black;
 }
 
 .course-complete {
-    color: greenyellow
+    color: greenyellow;
 }
 
 .course-no-grades {
-    color: hotpink
+    color: hotpink;
 }
 
 .course-partialy-complete {
-    color: gold
+    color: gold;
 }
 
 .exam-failed {
-    color: red
+    color: red;
 }
 
 .course-with-failed-exam {
-    color: blueviolet
+    color: blueviolet;
 }
 
 #blog {
@@ -111,23 +118,37 @@ table {
 
 .games img {
     width: 100%;
-    min-width: 200px ;
+    min-width: 200px;
     max-width: 350px;
     border-radius: 10px;
+}
+
+.genres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.genres img {
+    width: 100%;
+    max-width: 725px;
 }
 
 .motivatie {
     width: 100%;
     max-width: 800px;
     text-align: center;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
 }
 
 .motivatie-head {
-    text-align: center
+    text-align: center;
+    font-size: 28px;
 }
 
-.faq p {
-    color:black
+.achtergrond {
+    background-color: blue;
 }

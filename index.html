@@ -8,15 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <style>
-        body {
-            background-color: black;
-        }
-
         ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
-            color: aquamarine;
+            color:aquamarine;
         }
 
         li a {
@@ -27,17 +23,17 @@
     </style>
 </head>
 
-<body>
+<body class="achtergrond">
     <h1 class="titel">Hello World!</h1>
-    <div id="navbar">
+    <nav id="navbar">
         <a class="actief" id="nav-link" href="http://localhost">Main</a>
         <a id="nav-link" href="http://localhost/profile.html">Profile</a>
         <a id="nav-link" href="http://localhost/dashboard.html">Dashboard</a>
         <a id="nav-link" href="http://localhost/faq.html">FAQ</a>
         <a id="nav-link" href="http://localhost/blog.html">Blog</a>
         <a class="top-secret" href="http://localhost/bee-movie.html">Bees</a>
-    </div>
-    <div>
+    </nav>
+    <aside>
         <ul class="sidemenu-base">
             <li class="sidemenu-text"><a target="_blank"
                     href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20230720.pdf">CER</a>
@@ -52,21 +48,7 @@
             <li class="sidemenu-text"><a target="_blank" href="https://hz.osiris-student.nl/#/home">Osiris</a></li>
             <li class="sidemenu-text"><a target="_blank" href="https://github.com/HZ-HBO-ICT">Github van HZ</a></li>
         </ul>
-    </div>
-    <script>
-        window.onscroll = function () { myFunction() };
-
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
-            }
-        }
-    </script>
+    </aside>
     <h1 class="motivatie-head">Hier zijn een paar van de redenen waarom ik voor hbo-ict heb gekozen</h1>
     <p class="motivatie">Een van mijn favoriete dingen om te doen in mijn vrije tijd is om te
         gamen, dit is al zo sinds dat ik 7 jaar oud was. Het lijkt mij hierom
@@ -88,6 +70,41 @@
         ik hard moet werken, hard moet leren en hoe ik op problemen oplossingen kan
         vinden. Als dit niet genoeg is om mensen te overtuigen dat ik goed genoeg
         ben voor deze studie, dan begrijp ik dat, maar vertrouw me, ik zal niet falen.</p>
+    <h1 class="motivatie-head">Hier zijn een paar soort games die ik zou willen maken:</h1>
+        <ul class="motivatie">
+            <li><h2>metroidvania</h2></li>
+            <li><h2>bullet hell</h2></li>
+            <li><h2>farming sim</h2></li>
+            <li><h2>turn based battle game</h2></li>
+            <li><h2>social deception game</h2></li>
+            <li><h2>puzzle game</h2></li>
+            <li><h2>horror game</h2></li>
+            <li><h2>card game</h2></li>
+        </ul>
+    <div class="genres">
+      <img alt="Hollow knight overworld" src="resources/img/metroidvania.jpg">
+      <img alt="Undertale Sans fight" src="resources/img/BulletHell.jpg">
+      <img alt="Stardew valley farm" src="resources/img/stardewvalley.png">
+      <img alt="Persona 5 battle" src="resources/img/TurnBasedBattleGame.jpg">
+      <img alt="Het start scherm van een potje van de hit-game Among Us" src="resources/img/amogus.webp">
+      <img alt="gameplay van the escapist 2" src="resources/img/puzzle.jpg">
+      <img alt="FNAF1 Bonny jumpscare" src="resources/img/horror.webp">
+      <img alt="Inscryption battle against the Prospector" src="resources/img/CardGame.jpg">
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>
