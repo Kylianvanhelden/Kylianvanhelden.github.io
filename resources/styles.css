@@ -16,6 +16,7 @@ h1 {
 li,
 p {
     color: black;
+    font-family: sans-serif
 }
 
 a:hover {
@@ -125,9 +126,10 @@ table {
     border-radius: 10px;
 }
 
-.genres-head{
+.genres-head {
     text-align: center;
-    font-size: 28px;;
+    font-size: 28px;
+    ;
 }
 
 .genres {
@@ -173,10 +175,10 @@ table {
 .lijn {
     border-bottom: 1px solid orange;
     margin: 2px 0;
-    
+
 }
 
-.groot{
+.groot {
     height: 5px;
     background-color: orange;
 }
@@ -209,7 +211,7 @@ table {
 .blog-post p {
     margin-left: 40px;
     margin-right: 100px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .blog-post img {
@@ -219,4 +221,43 @@ table {
 
 .blog-post a {
     padding-right: 15px;
+}
+
+.sidemenu-base {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: aquamarine;
+    float: left;
+}
+
+.sidemenu-base {
+    display: block;
+    width: 100px;
+    background-color: gainsboro;
+}
+
+.profiel h1 {
+    font-size: 28px
+}
+
+.profiel p {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.eigenschappen li,
+.werk li {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.faq p,
+.faq a {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.faq h2 {
+    font-size: 28px;
 }
