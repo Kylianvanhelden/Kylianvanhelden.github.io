@@ -3,6 +3,7 @@
     color: orange;
     font-family: fantasy;
     letter-spacing: 1px;
+    /*Als je de pagina opent de titel boven de inhoud*/
 }
 
 h1 {
@@ -11,6 +12,7 @@ h1 {
 
 .vraag {
     color: red;
+    /*De vragen in de FAQ*/
 }
 
 li,
@@ -21,12 +23,14 @@ p {
 
 a:hover {
     color: rgba(255, 225, 0, 0.666);
+    /*als je over een link hovered*/
 }
 
 #navbar {
     overflow: hidden;
     background-color: #333;
     font-size: 25px;
+    /*de navbar op elke pagina*/
 }
 
 #navbar a {
@@ -34,82 +38,101 @@ a:hover {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    /*de links op de navbar*/
 }
 
 #nav-link {
     color: #f2f2f2;
     float: left;
+    /*dit is voor de kleuren en de positie van de links in de navbar*/
 }
 
 #nav-link:hover {
     color: rgba(255, 225, 0, 0.666);
+    /*de kleur als over de links in de navbar gehovered wordt*/
 }
 
 #navbar a.actief {
     color: tomato;
+    /*de kleur die aan de links in de navbar gegeven wordt van de pagina die hiermee overeen komt*/
 }
 
 #navbar a.semi-actief {
     color: white;
+    /*de kleur van de link voor het blog, deze wordt alleen geïmplementeerd op de artikel pagina's*/
 }
 
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+    /*de class die ervoor zorgt dat de navbar sticky is*/
 }
 
 .top-secret {
     color: #333;
     float: right;
+    /*dit zorgt ervoor dat de link voor 'het script' aan de andere kant van de navbar
+     staat vergeleken met de normale links en dezelfde kleur heeft als de navbar zelf*/
 }
 
 .top-secret:hover {
     color: #333;
+    /*dit zorgt ervoor dat de link dezelfde kleur behoud waneer er over gehovered wordt*/
 }
 
 .top-secret-actief {
     color: rgba(255, 225, 0, 0.666);
     float: right;
+    /*waneer je op de geheime pagina zit is de link wel te zien maar blijft wel rechts staan*/
 }
 
 th {
     color: deeppink;
     font-size: 28px;
+    /*titels van de tabel*/
 }
 
 td {
     color: darkorange;
     font-size: 20px;
+    /*inhoud van de tabel*/
 }
 
 table {
     background-color: gray;
     border-color: black;
+    /*achtergrond en border van de tabel*/
 }
 
 .course-complete {
     color: greenyellow;
+    /*wanneer een vak is afgerond krijgt hij deze kleur*/
 }
 
 .course-no-grades {
     color: hotpink;
+    /*wanneer er nog geen cijfers bekend zijn krijgt een vak deze kleur*/
 }
 
 .course-partialy-complete {
     color: gold;
+    /*wanneer er minstens een cijfer voldoende terug is maar nog niet elk cijfer terug is krijgt een vak deze kleur*/
 }
 
 .exam-failed {
     color: red;
+    /*wanner er voor een examen een onvoldoende is behaald krijgt dit examen deze kleur*/
 }
 
 .course-with-failed-exam {
     color: blueviolet;
+    /*wanneer er voor een examen een onvoldoende is behaald krijgt het vak van dit examen deze kleur*/
 }
 
 #blog {
     border: 2px solid blueviolet;
+    /*de border om de artikelen van het blog*/
 }
 
 .games {
@@ -117,6 +140,7 @@ table {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
+    /*class die ervoor zorgt dat de games op profile.html goed staan*/
 }
 
 .games img {
@@ -124,12 +148,13 @@ table {
     min-width: 200px;
     max-width: 350px;
     border-radius: 10px;
+    /*dit zorgt ervoor dat de afbeeldingen met de class games de juiste grote en formaat hebben*/
 }
 
 .genres-head {
     text-align: center;
     font-size: 28px;
-    ;
+    /*titel boven de genres lijst in index.html*/
 }
 
 .genres {
@@ -139,6 +164,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     font-size: 24px;
+    /*deze class zorgt ervoor dat de genres lijst het juiste formaat en positie heeft*/
 }
 
 .genres-img {
@@ -146,11 +172,13 @@ table {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
+    /*class die ervoor zorgt dat de genres afbeeldingen op index.html goed staan*/
 }
 
 .genres-img img {
     width: 100%;
     max-width: 725px;
+    /*dit zorgt ervoor dat de afbeelding met deze class de juiste grote en formaat hebben*/
 }
 
 .motivatie {
@@ -160,43 +188,42 @@ table {
     margin-left: auto;
     margin-right: auto;
     font-size: 24px;
+    /*text over motivatie in index.html*/
 }
 
 .motivatie-head {
     text-align: center;
     font-size: 28px;
     margin-right: 100px;
+    /*titel boven motivatie in index.html*/
 }
 
 .achtergrond {
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.804);
+    /*achtergrond op elke pagina( behalve script)*/
 }
 
 .lijn {
     border-bottom: 1px solid orange;
     margin: 2px 0;
-
+    /*een kleine lijn om dingen te schijden*/
 }
 
 .groot {
     height: 5px;
     background-color: orange;
-}
-
-.lijn-blog {
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    height: 5px;
-    background-color: orange;
+    /*een class die bij .lijn hoort om een grotere lijn te maken*/
 }
 
 .het-blog h2 {
     font-size: 28px;
     color: orange;
+    /*past h2 elementen op blog.html aan*/
 }
 
 .blog-link {
     color: orange;
+    /*kleur voor de links in blog.html*/
 }
 
 
@@ -206,37 +233,39 @@ table {
     background-color: white;
     padding: 0 2px;
     font-size: 24px;
+    /*voor de text in de artikelen in blog.html*/
 }
 
 .blog-post p {
     margin-left: 40px;
     margin-right: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*specificaties voor de p elementen in de artikelen van blog.html*/
 }
 
 .blog-post img {
     max-width: 300px;
     float: right;
+    /*positie en grote voor plaatjes in blog-bedrijven.html*/
 }
 
 .blog-post a {
     padding-right: 15px;
+    /*positie voor links in blog-bedrijven.html*/
 }
 
 .sidemenu-base {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: aquamarine;
     float: left;
-}
-
-.sidemenu-base {
     display: block;
     width: 100px;
     background-color: gainsboro;
+    /*positie en specificaties voor de sidemenu in index.html*/
 }
 
+/*de volgende classes zijn toegevoegd aangezien ze niet werkten met de classes die hier boven stonden dus heb ik nieuwe classes aangemaakt*/
 .profiel h1 {
     font-size: 28px
 }
